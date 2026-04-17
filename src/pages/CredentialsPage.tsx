@@ -60,11 +60,11 @@ export const CredentialsPage: React.FC<CredentialsPageProps> = ({ botId, onBack 
     }
   };
 
-  const handleCopy = (secret: string, id: string) => {
-    navigator.clipboard.writeText(secret);
-    setCopiedId(id);
-    setTimeout(() => setCopiedId(null), 2000);
-  };
+  // const handleCopy = (secret: string, id: string) => {
+  //   navigator.clipboard.writeText(secret);
+  //   setCopiedId(id);
+  //   setTimeout(() => setCopiedId(null), 2000);
+  // };
 
   return (
     <div className="space-y-8">
