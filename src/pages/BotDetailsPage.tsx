@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import { Lock, Key, MessageSquare, ArrowLeft, Edit2 } from 'lucide-react';
+import { Edit2 } from 'lucide-react';
 import { useFetch } from '@/hooks/useFetch';
 import { apiClient } from '@/services/api';
 import { Card, Button, LoadingSpinner, Alert, Modal, Input } from '@/components';
-import { OpenBot } from '@/types';
 
 interface BotDetailsProps {
   botId: string;
